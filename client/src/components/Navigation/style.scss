@@ -1,0 +1,14 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+
+    p {
+        padding-right: 20px;
+        cursor: pointer;
+        font-size: 2em;
+        text-decoration: underline;
+        &:hover {
+            color: gray;
+        }
+    }
+}
