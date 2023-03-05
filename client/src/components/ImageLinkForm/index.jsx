@@ -1,15 +1,16 @@
 import React from "react";
 import './style.scss';
+import './button.scss';
 
 export const ImageLinkForm = () => {
     return (
         <div className="image-box">
             <p>
-                {'This Magic Brain will detect faces in your pictures.'}
+                {'Feed the br4in.'}
             </p>
             <div>
-                <input type='text' />
-                <button>Detect</button>
+                <input type='text' placeholder="type here, human" />
+                <button className="button-49">Detect</button>
             </div>
         </div>
     )
